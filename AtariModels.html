@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shop</title>
+  <link rel="stylesheet" href="../css files/shop.css">
+  <link rel="stylesheet" href="../css files/HomePage.css">
+</head>
+<body>
+  <header>
+    <div class="head">
+    <div class="left-section">
+    <a  href="HomePage.html">  <img class="LOGO" src="../pictures/atari.webp" alt="Logo"></a>
+   </div>
+   <div class="mid-section">
+    <label id="total"></label>
+   <img class="shoppingcart" src="../pictures/231-2317482_white-shopping-cart-png-download-buy-icon-white.png" alt="">
+    <label style="margin-left: 10px;
+    " id="quantity"></label>
+    <br>
+    <div class="inventory">
+      <div>
+        <label id="tqlabel"></label>
+      <button type="button" id="reduce"  class="trashpin"><img class="trashpin" src="../pictures/trash pin.png" alt=""></button>
+      </div>
+      <div>
+        <label id="caplabel"></label>
+      <button type="button" id="reduce2"  class="trashpin"><img class="trashpin" src="../pictures/trash pin.png" alt=""></button>
+      </div>
+      <div>
+        <label id="sneakerlabel"></label>
+       <button type="button" id="reduce3"  class="trashpin"><img class="trashpin" src="../pictures/trash pin.png" alt=""></button>
+      </div>
+   </div> 
+  </div>
+    <div class="right-section">
+     <button class="menu" type="menu">Menu</button>
+     <div class="dropdown-content">
+     <a   href="Deals.html">See The Deals</a>
+     <a  href="AtariModels.html">Shop</a>
+     <a  href="celebration.html">WE CELEBRATE OUR 50TH ANNIVERSARY</a>
+     <a  href="AboutUs.html">About Us</a>
+    </div>
+   </div>
+
+  
+  </header>
+
+  <main>
+    
+  <div class="MainBox">
+   <div class="Boxes">  
+     <div class="BOX">
+       <div class=product1>
+          <img class="productPic" src="../pictures/t-shirt.jpg" alt="">
+       </div>
+       <div class="product2">
+         <img class="productPic" src="../pictures/Atari_50th_Sunnyvale_01_White.webp" alt="">
+       </div>
+     </div>
+     <p class="productName">Atari Tshirt</p>
+     <div class="buttonBox">
+      <button class="shoppingButton" id="minus" type="button"><img class="minus" src="../pictures/minus (1).png" alt=""></button>
+      <label id="tshirtquantity" ></label>
+      <button class="shoppingButton" id="plus" type="button"><img class="plus" src="../pictures/minus (2).png" alt=""></button>
+      
+      <button  class="addbutton" type="button" id="AddButton" >Add to the cart </button>
+    </div>  
+    </div>
+
+    <div class="Boxes">  
+      <div class="BOX">
+        <div class=product1>
+           <img class="productPic" src="../pictures/cap.avif" alt="">
+        </div>
+        <div class="product2">
+          <img class="productPic" src="../pictures/back cap.avif" alt="">
+        </div>
+      </div>
+      <p class="productName">Atari Cap</p>
+      <div class="buttonBox">
+        <button class="shoppingButton" id="minus2" type="button"><img class="minus" src="../pictures/minus (1).png" alt=""></button>
+        <label id="capquantity"></label>  
+        <button class="shoppingButton" id="plus2" type="button"><img class="plus" src="../pictures/minus (2).png" alt=""></button>
+        <button type="button" id="AddButton2" class="addbutton">Add to the cart</button>
+      </div> 
+      
+     </div>
+
+
+     <div class="Boxes">  
+      <div class="BOX">
+    
+        <div class=product1>
+           <img class="productPic" src="../pictures/atari-3d-sneaker-nft-auction-is-using-snapchat-let-you-try-before-you-buy-blockchain.1280x600.jpg" alt="">
+        </div>
+        <div class="product2">
+          <img class="productPic" src="../pictures/Atari-virtual-sneakers-edited.webp" alt="">
+        </div>
+      </div>
+      
+      <p class="productName">Atari Sneakers</p><br>
+        <div class="buttonBox">
+          <button class="shoppingButton" id="minus3" type="button"><img class="minus" src="../pictures/minus (1).png" alt=""></button>
+          <label id="sneakerquantity"></label> 
+          <button class="shoppingButton" id="plus3" type="button"><img class="plus" src="../pictures/minus (2).png" alt=""></button>
+          <button type="button" id="AddButton3" class="addbutton" >Add to the cart</button>
+        </div>
+   </div>
+  </div>
+
+  </main>
+</body>
+<script src="../js files/shop.js">
+</script>
+</html>

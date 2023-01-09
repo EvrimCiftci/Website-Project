@@ -1,0 +1,12 @@
+.founderpicture{
+  width: 500px;
+  height: 300px;
+  border: solid;
+  margin-bottom: 10px;
+}
+.AboutUsBox{  
+  align-items: center;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+}

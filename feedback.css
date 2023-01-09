@@ -1,0 +1,71 @@
+.white-star{
+  border: none;
+  width: 30px;
+  height: 30px;
+  margin-bottom: 20px;
+}
+.white-star-button{
+  border: none; 
+  background-color: white;
+}
+.rateBox{
+  display: flex;
+  flex: 1;
+  flex-direction:row;
+  align-items: center;
+}
+
+#rate{
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: solid;
+  display: block;
+  margin-bottom: 15px;
+  text-decoration: underline;
+}
+
+.title{
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: solid;
+}
+.commentBox{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: space-between;
+}
+
+.mainbox{
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+#submit{
+margin-top: 10px;
+background-color: red;
+color: white;
+border: none;
+width: 100px;
+height: 50px;
+border-radius: 35px;
+font-weight: 900;
+font-family: Arial, Helvetica, sans-serif;
+}
+#submit:hover{
+  background-color: white;
+  border: solid;
+  border-color: red;
+  color: red;
+}
+
+
+.finalBox{
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-items: center;
+}
+

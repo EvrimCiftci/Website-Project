@@ -1,0 +1,42 @@
+.competitionbox{
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 500px;
+  border: solid;
+  background-color: rgb(240, 240, 20);
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  align-self: center;
+}
+.input{
+  width: 200px;
+  border: solid;
+}
+.button{
+  border: solid;
+  border-color: black;
+  color: black;
+  font-weight: 800;
+  background-color:yellow ;
+  width: 150px;
+  height: 50px;
+  border-radius: 10px;
+}
+
+.button:hover{
+  border-color: yellow;
+  color: yellow;
+  background-color: black;
+  cursor: pointer;
+}
+.mainbox{
+  display: flex;
+  flex-direction: row;
+  width:1000px;
+  height: 700px;
+  align-content: center;
+  padding-left: 500px;
+}
+

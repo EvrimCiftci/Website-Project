@@ -1,0 +1,43 @@
+body{
+  align-content: center;
+}
+.formBox{
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  align-items: center;
+  border: solid;
+  background-color: red;
+  align-self: center;
+  margin-top: 200px;
+  margin-left: 500px;
+}
+.input{
+  border-color: rgb(255, 21, 21);
+}
+.label{
+  color: white;
+}
+.button{
+margin-top: 15px;
+background-color: red;
+color: white;
+padding-left: 15px;
+padding-right: 15px;
+width: 200x;
+height: 50px;
+border-radius: 10px;
+margin-bottom: 15px;
+margin-left: 35px;
+border: solid;
+border-color: white;
+}
+.button:hover{
+  color: red;
+  background-color: whitesmoke;
+  border: solid;
+}
+body{
+  background-color: black;
+}

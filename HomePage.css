@@ -1,0 +1,311 @@
+
+.head{
+  display: flex;
+  flex-direction: row;
+  flex: 1 ;
+  background-color: black;
+  color: white;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  border: none;
+  align-content: space-between;
+}
+.left-section{
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  flex: 1;
+}
+
+.LOGO{
+  width: 250px;
+  height: 200px;
+  object-fit: cover;
+  padding-left: 0%;
+  border: solid;
+  border-color: black;
+}
+.LOGO:hover{
+  cursor: pointer;
+  border: solid;
+  border-color: white;
+}
+
+.mid-section{
+  display: flex;
+  flex: 1;
+  align-items: center;
+}
+.listItem{
+ color: white;
+ text-decoration: none;
+}
+.listItem:hover{
+  text-decoration:underline;
+  margin-top: 9px;
+}
+
+.atari{
+ height: 200px;
+ width: 300px;
+ object-fit: contain;
+}
+
+.right-section{
+  display: inline-block;
+  flex: 1;
+  align-items:center;
+  position: relative;
+  padding-top: 90px;
+}
+
+.menu{
+  height: 100px;
+  width: 200px;
+  border: none;
+  background-color: black;
+  color: white;
+  font-size: 30px;
+}
+
+.menu:hover{
+  text-decoration: underline;
+  cursor: pointer ;
+}
+
+.dropdown-content{
+  display: none;
+  position: absolute;
+  background-color: whitesmoke;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  margin-left: 60px;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+}
+.dropdown-content a:hover {
+  text-decoration: underline;
+  color: red;
+  background-color: rgb(222, 222, 222); 
+}
+
+.right-section:hover .dropdown-content{
+  display: block;
+}
+
+.right-section:hover .menu{
+  background-color: black;
+}
+.MAINBOX{
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+.box{
+  position: relative;
+  height: 300px;
+  width: 300px;
+  margin-top: 25px;
+  border: none;
+  margin-right: 3px;
+  margin-left: 3px;
+  transform-style: preserve-3d;
+  transition: all 0.5 ease;
+}
+.box:hover{
+transform: rotateY(180deg);
+border: solid;
+border-color: black;
+width: 200px;
+margin-left: 50px;
+margin-right: 50px;
+margin-top: 20px;
+margin-bottom: 0%;
+background-color: red;
+color: white;
+transition: all 1.5 ease;
+}
+.thefront{
+  position: absolute;
+  backface-visibility: hidden;
+  width:100%;
+  height:100%;
+}
+.theback{
+  position: absolute;
+  backface-visibility: hidden;
+  transform:rotateY(180deg);
+  width:100%;
+  height:100%;
+}
+.poster{
+  width:100%;
+  height:100%;
+  object-fit: contain;
+}   
+.poster:hover{
+  border: solid;
+  padding-left: 0%;
+  padding-right: 0%;
+}
+.gameName{
+  color: rgb(33, 33, 74);
+  font-family: Arial, Helvetica, sans-serif;
+}
+.gameName:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+.OutBox{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: darkblue;
+  text-decoration: underline;
+}
+ 
+
+
+
+.footer{
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 100px;
+  width: 100%;
+  height: 200px;
+  background-color: white;
+  margin-left: 0%;
+  margin-right: 0%; 
+}
+.jobBox{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  border: solid;
+  border-left-color: black;
+  border-top-color:white ;
+  border-bottom-color: white;
+  border-right-color: white;
+  padding-left:15px ;
+}
+.Title{
+margin-top: 15px;
+margin-bottom: 6px;
+color: red;
+font-weight: solid;
+font-family: Arial, Helvetica, sans-serif;
+display: block;
+text-decoration: underline;
+}
+.option{
+  margin-top: 1px;
+  margin-bottom: 30px;
+  color: black;
+  text-decoration: none;
+  display: block;
+}
+.option:hover{
+  color: red;
+}
+
+.designbox{
+  display: flex;
+  flex:1;
+  flex-direction: column;
+  width: 100%;
+  height: 200px;
+  background-color: white;
+  margin-left: 0%;
+  margin-right: 0%; 
+  border: solid;
+  border-top-color: white;
+  border-bottom-color: white;
+  border-left-color: white;
+  align-items: center;
+}
+
+.programmers{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  margin-top: 2px;
+  margin-bottom: 30px;
+}
+.adressBox{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 200px;
+  background-color: white;
+  margin-left: 0%;
+  margin-right: 0%; 
+  margin-left: 20px; 
+  padding-top: 0%;
+  border: solid;
+  border-top-color: white;
+  border-bottom-color: white;
+  align-items: center;
+  padding-right: 15px;
+}
+.address{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  margin-top: 2px;
+  margin-bottom: 30px;
+  display: inline;
+}
+.footerlogo{
+  width: 250px;
+  height: 200px;
+  object-fit: contain;
+  padding-right:0%;
+
+}
+.since1972{
+  color:black;
+  font-weight: 900;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 60px;
+  margin-bottom:185px ;
+  margin-left: 10px;
+}
+.socialmediaBox{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  width: 300px;
+  height: 200px;
+  background-color: rgb(255, 255, 255);
+  margin-left: 0%;
+  margin-right: 0%; 
+  margin-left: 20px; 
+  padding-top: 0%;
+  border: solid;
+  align-items: center;
+  border-bottom-color:white ;
+  border-top-color: white;
+  border-left-color:white ;
+  padding-right: 15px;
+}
+.socials{
+  height: 30px;
+  width: 30px;
+  object-fit: contain;
+}

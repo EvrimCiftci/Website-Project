@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Feedback survey</title>
+  <link rel="stylesheet" href="../css files/feedback.css">
+</head>
+<body>
+  <div class="mainbox">
+    <div class="rateBox" >
+      <button class="white-star-button" type="button" id="white1"><img class="white-star" id="star1" src="../pictures/whitestaricon.png" alt=""></button>
+      <button class="white-star-button" type="button" id="white2"><img class="white-star" id="star2" src="../pictures/whitestaricon.png" alt=""></button>
+      <button class="white-star-button" type="button" id="white3"><img class="white-star" id="star3" src="../pictures/whitestaricon.png" alt=""></button>
+      <button class="white-star-button" type="button" id="white4"><img class="white-star" id="star4" src="../pictures/whitestaricon.png" alt=""></button>
+      <button class="white-star-button" type="button" id="white5"><img class="white-star" id="star5" src="../pictures/whitestaricon.png" alt=""></button><br>
+    
+     </div>
+     <div class="commentBox"> 
+      <label id="rate"></label>
+       <label class="title">Models</label><br>
+       <select id="model" name="model"> 
+         <option id="option1" >Atari Flashback 8 Gold</option>
+         <option id="option2" >Atari Flashback'8 Deluxe</option>
+         <option  id="option3">Atari Flashback'9</option>
+        
+        </select><br>
+       <label  class="title">Your Comment</label><br>
+       <textarea  cols="30" rows="10" id="comment"></textarea>
+       <button type="submit" id="submit">submit</button>
+      
+     </div>
+     <div>
+      
+     </div>
+  </div>
+  
+  <div class="finalBox">
+    <label id="thanksmessage"></label><br>
+    <label id="finalrate"></label><Br>
+    <label id="finalcomment" class="comment"></label>
+  
+  </div>
+  <a href="HomePage.html">Home</a>
+</body>
+
+<script src="../js files/feedback.js"></script>
+
+
+</script>
+</html>

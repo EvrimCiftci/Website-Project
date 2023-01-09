@@ -1,0 +1,35 @@
+.mainBox{
+  display: flex;
+  flex-direction: row;
+  padding-left: 100PX;
+}
+
+.productBox{
+  display: flex ;
+  flex-direction: column;
+  width: 370px;
+  align-items: center;
+ margin-left: 30px;
+ text-align: center;
+ border: solid;
+ margin-top: 30px;
+ padding-bottom: 30px;
+
+}
+
+.productPic{
+  width: 350px;
+  height: 250px;
+  border: none;
+}
+.productPic:hover{
+  cursor:zoom-in;
+}
+
+.productPic:active{
+  transform:scale(1.5);
+  -ms-transform:scale(1.5); /* IE 9 */
+  -moz-transform:scale(1.5); /* Firefox */
+  -webkit-transform:scale(1.06); /* Safari and Chrome */
+  -o-transform:scale(1.5); /* Opera */
+}
